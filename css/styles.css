@@ -1,0 +1,270 @@
+/* navigation bar css*/
+.navbar-brand {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 2.5rem;
+}
+
+.logonavbar {
+    width: 200px;
+}
+
+.nav-link {
+    margin: 0 7px 0 7px;
+    font-size: 1.2rem;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 3% 15% 7% 15%;
+}
+
+/* DESCRIPTION, DL BUTTONS, IPHONE MOCKUP */
+
+#title {
+    background-color: #eb1700;
+
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+
+.row-landing {
+    margin-top: 5rem;
+}
+
+
+
+.btnapple {
+    margin-right: 1rem;
+}
+
+.iphone {
+    position: absolute;
+    width: 20%;
+    margin-left: 100px;
+    transform: rotate(25deg)
+}
+
+@media (max-width: 991px) {
+    .iphone {
+        width: 250px;
+        position: static;
+        transform: rotate(0deg)
+    }
+}
+
+#features {
+    position: relative;
+    padding: 10% 10%;
+    text-align: center;
+    background-color: white;
+}
+
+.feature-icons {
+    color: #ff1e05;
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+:hover.feature-icons {
+    color: #eb1700;
+}
+
+/* TESTIMONIALS */
+
+#testimonials {
+    padding: 10% 10% 5% 10%;
+    text-align: center;
+    background-color: #ff1e05;
+    color: white;
+}
+
+.testitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 200%;
+    line-height: 1.8;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.testimg {
+    border-radius: 50%;
+    width: 130px;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ffff;
+    text-align: center;
+    padding: 0 10% 6% 10%;
+}
+
+.pressimg {
+    width: 15%;
+    padding: 0 1%;
+}
+
+/* padding: 0 15px 0 15px; */
+
+
+#pricing {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    /* margin: 10% 0; */
+    background-color: #ff1e05;
+    padding-bottom: 100px;
+}
+
+.pricingtitle,.p-pricing {
+    color: white;
+}
+
+.btn-dark {
+    --bs-btn-bg: #ff1e05;
+    --bs-btn-border-color: #ff1e05;
+    --bs-btn-hover-color: #ef1212;
+    --bs-btn-hover-bg: #FFFFFF;
+    --bs-btn-hover-border-color: #ff1e05;
+}
+
+.btn-outline-dark {
+    --bs-btn-color: #ff1e05;
+    --bs-btn-border-color: #ff1e05;
+    --bs-btn-hover-bg: #ff1e05;
+    --bs-btn-hover-border-color: #ff1e05;
+}
+
+
+.pricingcards {
+    padding-top: 5%;
+}
+
+.boldh2 {
+    font-size: 250%;
+    margin: 0 5%;
+}
+
+.p-pricing {
+    padding-top: 2%;
+    font-size: 1.2em;
+}
+
+.pricing-features {
+    margin: 7% 0;
+}
+
+.pricing-heading {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.pricingtitle {
+    padding-top: 5%;
+}
+
+.priceamout {
+    margin: 2% 0 6% 0;
+}
+
+.boldp {
+    margin-bottom: 0;
+}
+
+
+.pricing-bold {
+    font-weight: bold;
+}
+
+
+/* NEW: LANDING FIRST PAGE */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+.btn-landing {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navfont {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.feature-h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.feature-paragraph {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.aso {
+    color: #ff1e05;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-bottom: 2%;
+    margin-top: 7%;
+}
+
+#cta {
+    margin-top: 7%;
+    text-align: center;
+    
+}
+
+#footer {
+    text-align: center;
+    background-color: #eb1700;
+}
+
+
+
+.cta-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 5%;
+}
+
+.btn-footer {
+    margin: 0 5px 6% 5px ;
+}
+
+.social-media-icons {
+    margin: 5% 20px 2% 20px;
+    color: #ffffff;
+}
+
+.p-footer {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+
+}
+
+.link-copyright {
+    color: rgb(187, 187, 187);
+    text-decoration: none;
+}
+
+@media (max-width: 991px) {
+    .card-15 {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .card-free, .card-5 {
+        margin-top: 20px;
+    }
+}
